@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CommonFunctions {
 
-    public WebDriver driver;
+    public static WebDriver driver;
 
     public void openBrowser()
     {
