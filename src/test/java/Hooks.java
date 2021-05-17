@@ -1,21 +1,20 @@
-import Utils.CommonFunctions;
-import cucumber.api.java.After;
+import Utils.CommonFunction;
 import cucumber.api.java.Before;
 
 public class Hooks {
 
-    CommonFunctions commonFunctionsObj = new CommonFunctions();
+    CommonFunction commonFunctionObj = new CommonFunction();
 
     @Before
     public void beforeTest()
 
     {
-        commonFunctionsObj.openBrowser();
+        commonFunctionObj.openBrowser();
     }
 
-    @After
+    /*@After
     public void afterTest()
     {
         commonFunctionsObj.closeBrowser();
-    }
+    }*/
 }
